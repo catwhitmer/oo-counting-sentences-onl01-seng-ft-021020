@@ -27,7 +27,10 @@ class String
   end
 
   def count_sentences
-    sentence_array = self.split(".?!,")
+    if sentence_array =[]
+      false
+    else
+      sentence_array = self.split(".?!,")
     return sentence_array.count
   end
   
