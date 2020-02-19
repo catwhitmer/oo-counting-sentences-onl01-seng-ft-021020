@@ -32,4 +32,3 @@ class String
   
 end
 
-self.split(/\?|\.|!/).reject{|array| array.empty?}.count
